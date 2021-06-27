@@ -53,13 +53,20 @@ CMakeSettings.json
 CMakeCache.txt
 CMakeLists.txt.user
 CMakeFiles/cmake.check_cache
-*build/
+# AMG !!!
+#*build/
+tmp*
+.DS_Store
+.AppleDouble
+._.DS_Store
 
 ## Python ##
 __pycache__/
 *.py[cod]
 *$py.class
 *.egg
+# AMG !!!
+env_*
 
 ## Compiled Libs ##
 *.so
